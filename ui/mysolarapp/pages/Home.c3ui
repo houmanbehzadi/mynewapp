@@ -5,6 +5,22 @@ ui module mysolarapp {
         "template": "c3ui.Dashboard2x2",
         "thumbnail": "template-thumbs/120/ui.Dashboard2x2.gif",
         "title": "Home",
-        "url": "home"
+        "url": "home",
+        "components": [
+            {
+                "id": "Panels",
+                "component": "KendoGrid",
+                "icon": "align-justify",
+                "name": "Grid",
+                "box": true,
+                "paginate": true,
+                "title": "New Grid",
+                "data": {},
+                "renderTo": "#TopLeft",
+                "height": 388,
+                "small": false,
+                "checkBoxes": false
+            }
+        ]
     }
 }
